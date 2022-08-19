@@ -1,0 +1,33 @@
+/* https://coolors.co/0a369d-4472ca-5e7ce2-92b4f4-cfdee7 */
+
+/* With # */
+/* #0a369d, #4472ca, #5e7ce2, #92b4f4, #cfdee7 */
+	
+:root {
+    --color1: white;
+    --color2-lighter: #ededed;
+    --color2: #92b4f4;
+    --color3: #4472ca;
+    --color3-darker: #5e7ce2;
+    --color4: #0a369d;
+    --color5: #cfdee7;
+}
+
+body {
+    background-color: var(--color2-lighter);
+}
+
+.navbar h2 {
+    font-family: HelveticaNeue-Light, "Helvetica Neue Light", Helvetica Neue,
+        Helvetica, Arial, sans-serif;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+
+a {
+    color: var(--color3);
+}
+
+a:hover {
+    color: var(--color3-darker);
+}
