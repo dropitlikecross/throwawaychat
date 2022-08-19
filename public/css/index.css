@@ -5,10 +5,12 @@
 #features {
     list-style: none;
     counter-reset: featureCount;
+    color: white;
 }
 
 #features li {
     counter-increment: featureCount;
+    color: white;
 }
 
 #features li:before {
